@@ -62,4 +62,24 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-console.log(course.courseInstructor);
+// console.log(course.courseInstructor);
+
+// const {courseInstructor} = course
+const {courseInstructor: instructor} = course
+// console.log(instructor);
+
+// types of json formats
+
+// 1) In below format
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// 2) As an array of objects
+[
+    {},
+    {},
+    {}
+]
